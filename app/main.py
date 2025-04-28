@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 from app.controllers.callback_query import CallbackQueryController
 from app.controllers.start import StartController
-from utils.logger import setup_logger
+from app.utils.logger import setup_logger
 
 
 logger = setup_logger("nhlapi.bot")
